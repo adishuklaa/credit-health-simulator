@@ -118,15 +118,3 @@ src/
 - **Accessibility:** Ensure ARIA labels on all sliders for screen readers.
 
 ---
-
-## Interview Talking Points
-
-- **60-Second Explanation:** "This is an educational FinTech prototype that helps users understand credit scores. It visualizes key credit factors and includes a 'What-If' simulator where users can adjust variables like utilization to see the directional impact on their score in real-time."
-- **The Problem:** Credit scores are a black box. People are scared to use their credit cards because they don't know how it affects their score.
-- **Decision:** I chose to build a purely educational simulator with synthetic data, avoiding the regulatory and security overhead of pulling real credit files.
-- **Tradeoff:** Used a simplified internal ruleset for the score simulation rather than a real algorithm. This sacrifices precision for speed of development, which is acceptable for an MVP focused on education.
-- **Tech Stack:** React, TypeScript, Vite, Tailwind CSS, Recharts. Picked for rapid UI development and strong type safety.
-- **AI/Automation:** AI can be used in the future to generate personalized educational insights based on the specific slider adjustments a user makes.
-- **Metrics:** I would track the time spent interacting with the sliders and the completion rate of educational tooltips.
-- **Next Steps:** Introduce a "Time" variable so users can simulate the impact of behaviors over 6, 12, or 24 months.
-- **Questions for Stakeholders:** "Would we want to eventually partner with a credit bureau to pull real data, or keep this strictly as a top-of-funnel educational marketing tool?"
