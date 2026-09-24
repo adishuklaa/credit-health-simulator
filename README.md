@@ -1,5 +1,7 @@
 # Credit Health Simulator
 
+![Project Screenshot](screenshots/dashboard.png)
+
 ## Product Overview
 The Credit Health Simulator is an educational FinTech prototype designed to demystify how credit scores work. By visualizing key credit factors—such as payment history, credit utilization, and credit age—users can see the health of a synthetic credit profile. Crucially, the product features a "What-If" simulator that allows users to adjust behaviors (like utilization or on-time payments) to see the potential directional impact on their score. 
 
